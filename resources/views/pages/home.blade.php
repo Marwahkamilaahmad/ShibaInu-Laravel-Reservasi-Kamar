@@ -10,10 +10,6 @@
 <body>
     @include('component.navbar')
 
-    <div class="mt-5 p-5">
-        @include('component.table_flk')
-    </div>
-
     <div class="container">
         @yield('content')
     </div>

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class FlkController extends Controller
+class FdkController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -45,9 +45,8 @@ class FlkController extends Controller
     {
         //
     }
-
     public function create()
     {
-        return view('create_flk');
+        return view('table_fdk');
     }
 }

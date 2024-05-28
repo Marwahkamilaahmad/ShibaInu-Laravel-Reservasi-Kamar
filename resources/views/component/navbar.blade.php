@@ -14,15 +14,31 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="{{ url('/docs') }}">Docs</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="{{ url('/create-flk') }}">Create</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            View
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{{ url('/create-flk') }}">FLK</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/create-fdk') }}">FDK</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/create-kasur') }}">Kasur</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Create
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{{ url('/create-flk') }}">FLK</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/create-fdk') }}">FDK</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/create-kasur') }}">Kasur</a></li>
+                        </ul>
+
                     </li>
                 </ul>
-                <form class="d-flex" action="{{ url('/search') }}" method="GET">
-                    <input class="form-control mr-3 w-5" type="search" placeholder="Search" aria-label="Search" name="query">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </nav>
 
 
