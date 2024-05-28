@@ -20,7 +20,7 @@ class ConsumeController extends Controller
         $content = $response->getBody()->getContents();
         $contentArray = json_decode($content, true);
         $data = $contentArray['data'];
-        return view('', compact('data'));
+        return view('home', compact('data'));
     }
 
     /**
