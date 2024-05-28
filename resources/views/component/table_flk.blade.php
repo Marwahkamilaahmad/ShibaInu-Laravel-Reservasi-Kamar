@@ -2,7 +2,7 @@
 
 <h3 class="text-center mb-3">Table Fasilitas Layanan Kesehatan</h3>
 
-<table class="table align-middle mb-0 bg-white shadow">
+<table class="table align-middle mb-0 bg-white shadow ">
   <thead class="bg-danger text-white">
     <tr>
       <th>Nama</th>
