@@ -9,7 +9,7 @@
             <div class="collapse navbar-collapse text-white " id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="{{ url('/') }}">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="{{ url('/dashboard') }}">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="">About</a>

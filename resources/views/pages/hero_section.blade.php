@@ -13,7 +13,7 @@
                             class="text-slider"></strong></p>
                 </div>
             </div>
-            <button type="button" class="btn text-white" style="background-color:rgb(48, 107, 111);">Live Reservation</button>
+            <a type="button" class="btn text-white" style="background-color:rgb(48, 107, 111);"  href="{{ url('/reservation') }}">Live Reservation</a>
         </div>
 </div>
 

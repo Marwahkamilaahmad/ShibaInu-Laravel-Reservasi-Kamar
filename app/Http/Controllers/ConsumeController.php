@@ -101,4 +101,12 @@ class ConsumeController extends Controller
         return Redirect::back()->with('success', 'berhasil');
 
     }
+
+    public function view_docs(){
+        return redirect('http://127.0.0.1:8001/docs');
+    }
+
+    public function view_reservation(){
+        return view('pages.reservation');
+    }
 }
