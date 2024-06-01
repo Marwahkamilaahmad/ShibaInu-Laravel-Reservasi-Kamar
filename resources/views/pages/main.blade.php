@@ -3,7 +3,7 @@
 
 @section('content')
 
-    @include('component.table_flk')
+    @include('pages.hero_section')
 
 @endsection
 
