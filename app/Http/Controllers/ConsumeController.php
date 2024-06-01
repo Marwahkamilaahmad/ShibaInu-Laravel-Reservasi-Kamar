@@ -107,6 +107,13 @@ class ConsumeController extends Controller
     }
 
     public function view_reservation(){
-        return view('pages.reservation');
+        $client = new Client();
+
+        $url = "";
+        $response = $client->request('GET', $url);
+        $content = $response->getBody()->getContents();
+        $contentArray = json_decode($content, true);
+        $data = $contentArray['data'];
+        return view('pages.reservation', compact('data'));
     }
 }
