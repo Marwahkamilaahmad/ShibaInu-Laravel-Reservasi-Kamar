@@ -22,6 +22,10 @@
 <!-- section about -->
 
 <div id="about" style="justify-content: center;align-items: center;position: relative;filter: brightness(70%);text-align: center; width:100%; height:50vh;">
+<h4>
+Tujuan aplikasi ini adalah untuk memberikan informasi terkait status kamar, fasilitas kamar.
+Aplikasi ini juga dapat digunakan untuk mengetahui status kasur, memberikan informasi terkait fasilitas dari kamar yang tersedia, serta pengelompokkan kamar dengan target layanan kesehatan, pemerintah daerah, dan pengembang aplikasi pihak Ke-3.
 
+</h4>
 
 </div>
