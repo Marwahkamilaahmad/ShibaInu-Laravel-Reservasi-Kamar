@@ -9,4 +9,10 @@ Route::get('/dashboard', function () {
     return view('pages.main');
 });
 Route::get('/docs',[ConsumeController::class, 'view_docs']);
-Route::get('/reservation',[ConsumeController::class, 'view_reservation']);
+Route::get('/reservation',[ConsumeController::class, 'view_reservation'])->name('reservation');
+Route::get('/table_reservation',function () {
+    $data = session('data');
+    $keyword = session('keyword');
+    return view('pages.table_reservation', compact('data', 'keyword'));
+})->name('table_reservation');
+Route::post('/post_reservation',[ConsumeController::class, 'store']);

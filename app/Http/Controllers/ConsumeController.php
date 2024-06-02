@@ -28,23 +28,25 @@ class ConsumeController extends Controller
      */
     public function store(Request $request)
     {
-        $parameter = [
 
-        ];
+            $keyword = $request->input('nama');
+            $parameter = [
+
+            ];
 
            $client = new Client();
-           $url = "";
+           $url = "http://127.0.0.1:8001/api/v1/advanced/lookup/facilities?keyword=".$keyword;
            $response = $client->request('POST', $url, [
                'form_params' => $parameter,
            ]);
-
            $content = $response->getBody()->getContents();
            $contentArrays = json_decode($content, true);
+           $data = $contentArrays['data'];
            if($contentArrays['status'] != true){
            $error = $contentArrays['message'];
                return Redirect::back()->withErrors($error);
            }else{
-               return Redirect::route('');
+            return redirect()->route('table_reservation')->with('data', $data,'keyword', $keyword);
            }
     }
 
@@ -107,13 +109,8 @@ class ConsumeController extends Controller
     }
 
     public function view_reservation(){
-        $client = new Client();
 
-        $url = "";
-        $response = $client->request('GET', $url);
-        $content = $response->getBody()->getContents();
-        $contentArray = json_decode($content, true);
-        $data = $contentArray['data'];
-        return view('pages.reservation', compact('data'));
+        return view('pages.reservation');
     }
+
 }

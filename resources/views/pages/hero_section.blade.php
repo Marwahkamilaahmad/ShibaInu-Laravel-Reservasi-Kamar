@@ -2,7 +2,7 @@
             justify-content: center;
             align-items: center;
             position: relative;
-            filter: brightness(70%);
+            filter: brightness(90%);
             text-align: center;">
         <div class="intro-content display-table text-center">
             <div class="table-cell">
@@ -13,7 +13,7 @@
                             class="text-slider"></strong></p>
                 </div>
             </div>
-            <a type="button" class="btn text-white" style="background-color:rgb(48, 107, 111);"  href="{{ url('/reservation') }}">Live Reservation</a>
+            <a type="button" class="btn text-white" style="background-color:rgb(48, 107, 111);"  href="{{ url('/table_reservation') }}">Live Reservation</a>
         </div>
 </div>
 

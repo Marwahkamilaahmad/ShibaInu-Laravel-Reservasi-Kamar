@@ -18,6 +18,9 @@
                         <a class="nav-link text-white" href="{{ url('/docs') }}">Docs</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link text-white" href="{{ url('/table_reservation') }}">Reservation</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-white" href="">Contact</a>
                     </li>
 
