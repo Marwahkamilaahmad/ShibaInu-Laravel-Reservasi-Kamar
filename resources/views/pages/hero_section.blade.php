@@ -7,9 +7,9 @@
         <div class="intro-content display-table text-center">
             <div class="table-cell">
                 <div class="container">
-                    <h1 class="intro-title mb-4">APIku</h1>
+                    <h2 class="intro-title mb-4">Selamat Datang</h2>
                     <p class="intro-subtitle"><span
-                            class="text-slider-items">Api for everyone</span><strong
+                            class="text-slider-items">Public Api Reservation</span><strong
                             class="text-slider"></strong></p>
                 </div>
             </div>
@@ -20,12 +20,35 @@
 
 
 <!-- section about -->
+<div id="about" class="intro route bg-image" style=" width:100%; height:100vh;  display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            text-align: center;">
+        <div class="intro-content display-table text-center">
+            <div class="table-cell">
+                <div class="container">
+                    <h2 class="mb-5">Tentang Proyek</h2>
+                    <p>Tujuan aplikasi ini adalah untuk memberikan informasi terkait status kamar, fasilitas kamar.
+Aplikasi ini juga dapat digunakan untuk mengetahui status kasur, memberikan informasi terkait fasilitas dari kamar yang tersedia, serta pengelompokkan kamar dengan target layanan kesehatan, pemerintah daerah, dan pengembang aplikasi pihak Ke-3.</p>
+                    <b class="intro-subtitle"><span class="text-slider-items">Sistem Reservasi Kamar Rawat Inap</span><strong class="text-slider"></strong></b>
+                    <p class="mt-3">Konfigurasi yang diterapkan dalam proyek ini menggunakan satu master dan dua slave, server master bertanggung jawab atas penulisan data dan pengelolaan permintaan dari klien, satu server slave berperan sebagai pelayan untuk melayani permintaan dari klien, dan server slave lainnya berfungsi sebagai server cadangan (backup).</p>
+                    <img src="assets/master-slave.png" style="width: 650px"/>
+                </div>
+            </div>
+        </div>
+</div>
 
-<div id="about" style="justify-content: center;align-items: center;position: relative;filter: brightness(70%);text-align: center; width:100%; height:50vh;">
-<h4>
-Tujuan aplikasi ini adalah untuk memberikan informasi terkait status kamar, fasilitas kamar.
-Aplikasi ini juga dapat digunakan untuk mengetahui status kasur, memberikan informasi terkait fasilitas dari kamar yang tersedia, serta pengelompokkan kamar dengan target layanan kesehatan, pemerintah daerah, dan pengembang aplikasi pihak Ke-3.
-
-</h4>
-
+<!-- section contact -->
+<div id="about" class="intro route bg-image" style=" width:100%; height:50vh;  display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            text-align: center;">
+        <div class="intro-content display-table text-center">
+            <div class="table-cell">
+                <div class="container">
+                </div>
+            </div>
+        </div>
 </div>
