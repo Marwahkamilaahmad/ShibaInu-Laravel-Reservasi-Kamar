@@ -21,31 +21,8 @@
                         <a class="nav-link text-white" href="{{ url('/table_reservation') }}">Reservation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="">Contact</a>
+                        <a class="nav-link text-white" href="#contact">Contact</a>
                     </li>
-
-    {{--                <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            View
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="{{ url('/create-flk') }}">FLK</a></li>
-                            <li><a class="dropdown-item" href="{{ url('/create-fdk') }}">FDK</a></li>
-                            <li><a class="dropdown-item" href="{{ url('/create-kasur') }}">Kasur</a></li>
-                        </ul>
-
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Create
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="{{ url('/create-flk') }}">FLK</a></li>
-                            <li><a class="dropdown-item" href="{{ url('/create-fdk') }}">FDK</a></li>
-                            <li><a class="dropdown-item" href="{{ url('/create-kasur') }}">Kasur</a></li>
-                        </ul>
-
-                    </li> --> --}}
                 </ul>
             </div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

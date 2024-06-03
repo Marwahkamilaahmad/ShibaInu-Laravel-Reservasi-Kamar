@@ -40,15 +40,29 @@ Aplikasi ini juga dapat digunakan untuk mengetahui status kasur, memberikan info
 </div>
 
 <!-- section contact -->
-<div id="about" class="intro route bg-image" style=" width:100%; height:50vh;  display: flex;
+<div id="contact" class="intro route bg-image" style=" width:100%; height:50vh; background-color : rgb(48, 107, 111);  display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
             text-align: center;">
         <div class="intro-content display-table text-center">
             <div class="table-cell">
-                <div class="container">
+                <div class="container d-flex">
+                <div class="card m-2" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact Person</h5>
+                        <p class="card-text">Whatsapp Manager : Rua</p>
+                        <a href="https://wa.me/62895406803388" class="btn btn-dark text-white">Whatsapp Us</a>
+                    </div>
                 </div>
+                <div class="card m-2" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact Mail</h5>
+                        <p class="card-text">Our Email</p>
+                        <a href="#" class="btn btn-dark text-white">Reservasikamar_id@gmail.com</a>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
 </div>
