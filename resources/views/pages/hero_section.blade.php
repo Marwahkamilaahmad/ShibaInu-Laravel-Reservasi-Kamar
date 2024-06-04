@@ -59,7 +59,7 @@ Aplikasi ini juga dapat digunakan untuk mengetahui status kasur, memberikan info
                     <div class="card-body">
                         <h5 class="card-title">Contact Mail</h5>
                         <p class="card-text">Our Email</p>
-                        <a href="#" class="btn btn-dark text-white">Reservasikamar_id@gmail.com</a>
+                        <a href="#" class="btn btn-dark text-white">Reservasikamarid@gmail.com</a>
                     </div>
                 </div>
             </div>
